@@ -12,6 +12,32 @@
       <sparkle:shortVersionString>1.0.0-beta.1</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
       <link>https://github.com/Machine-Room-Software/glass-terminal-releases/releases/tag/v1.0.0-beta.1</link>
+      <sparkle:fullReleaseNotesLink>https://github.com/Machine-Room-Software/glass-terminal-releases/releases/tag/v1.0.0-beta.1</sparkle:fullReleaseNotesLink>
+      <description sparkle:format="markdown"><![CDATA[### Added
+
+- Automatic updates via Sparkle (`Glass › Check for Updates…`), with notarized builds published to the public release feed.
+- Tab Overview grid for browsing, previewing, and switching between all tabs in a window.
+- Tab sidebar with folder grouping, numbered tab badges, swipe-to-close, and an inspector panel, plus a compact numbered tab strip in the toolbar when the sidebar is collapsed.
+- Light mode appearance, Material Map for tuning glass opacity and tint, adaptive text contrast, and a theme-tinted Dock icon.
+- Environment settings tab for managing shell environment variables and macOS Keychain-backed secrets, with live `Shell › Reload Variables` for open tabs and `Glass env` sharing across shells.
+- Built-in `Glass.help` documentation book with contextual help buttons in Settings and Environment sheets.
+- Shell integration (`OSC 133`) with prompt jumping, semantic marks, command completion notifications, and background bell alerts.
+- Secure Keyboard Entry (`Glass › Secure Keyboard Entry`), Finder Services (`New Glass Window at Folder` and `New Glass Tab at Folder`), file drag-and-drop insertion, and `⌘`-click titlebar path menu.
+
+### Improved
+
+- Redesigned native AppKit Settings window with a unified toolbar, live appearance preview, custom stepped number fields, and Glass dropdown menus.
+- Smoother sidebar, inspector, and Tab Overview spring animations, with stronger scroll-edge fade and frosted titlebar wells on light surfaces.
+- Bundled true italic and bold font faces across weights, plus crisp unsmoothed font rendering scoped to Glass windows while keeping menus and system dialogs native.
+- Restores windows to their previous display, size, and full-screen state, and strengthens chrome contrast under macOS Increase Contrast.
+- Live match feedback in the Find bar and full VoiceOver accessibility support across terminal content and tab chrome.
+
+### Fixed
+
+- Terminal programs now prompt before reading the clipboard, and unusual link schemes ask for confirmation before opening.
+- Bracketed-paste wrapping, CRLF multiline paste detection, and Unicode-safe `Paste Escaped Text` escaping.
+- Blank tab recovery after switching tabs, first-row height stability when zooming font size, and saving window size without capturing full-screen transitions.
+- Settings Appearance updates when switching macOS Light/Dark mode, and flushing uncommitted Settings edits on quit.]]></description>
       <enclosure url="https://github.com/Machine-Room-Software/glass-terminal-releases/releases/download/v1.0.0-beta.1/Glass-1.0.0-beta.1.zip" length="16023062" type="application/octet-stream" sparkle:edSignature="HNf8+PbH3E8Q2U7oMNxX8IPm7vWdrgpJqNuzSbwy8XCVwj3SvmmZ+xBf3x2u2oVKmc411K24IAJziVdcZFpsCg==" />
     </item>
   </channel>
